@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "853588780905",
+    "firebase_url": "https://freechat-3480c.firebaseio.com",
+    "project_id": "freechat-3480c",
+    "storage_bucket": "freechat-3480c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853588780905:android:9b53090e942d2eef",
+        "android_client_info": {
+          "package_name": "com.aman.freechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853588780905-rilms52ltsl0fkssj2202emoibsb5e3d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aman.freechat",
+            "certificate_hash": "819bb549a5fcddccd4886293621ef125692a8765"
+          }
+        },
+        {
+          "client_id": "853588780905-mttsojnqh8kkkkovhk8cem04vdq53ba3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC-jXF-6W11BoPoNuCXp7ueePGFeZFOE8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853588780905-mttsojnqh8kkkkovhk8cem04vdq53ba3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
