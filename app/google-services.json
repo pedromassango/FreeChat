@@ -1,55 +1,73 @@
 {
   "project_info": {
-    "project_number": "853588780905",
-    "firebase_url": "https://freechat-3480c.firebaseio.com",
-    "project_id": "freechat-3480c",
-    "storage_bucket": "freechat-3480c.appspot.com"
+    "project_id": "PRODJECT-ID",
+    "project_number": "PROJECT-NUMBER",
+    "name": "APPLICATION-NAME"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:853588780905:android:9b53090e942d2eef",
+        "mobilesdk_app_id": "1:PROJECT-NUMBER:android:HASH-FOR-FLAVOR1",
+        "client_id": "android:PACKAGE-NAME-1",
+        "client_type": 1,
         "android_client_info": {
-          "package_name": "com.aman.freechat"
+          "package_name": "PACKAGE-NAME-1"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "853588780905-rilms52ltsl0fkssj2202emoibsb5e3d.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.aman.freechat",
-            "certificate_hash": "819bb549a5fcddccd4886293621ef125692a8765"
-          }
-        },
-        {
-          "client_id": "853588780905-mttsojnqh8kkkkovhk8cem04vdq53ba3.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDC-jXF-6W11BoPoNuCXp7ueePGFeZFOE8"
-        }
-      ],
+      "oauth_client": [],
+      "api_key": [],
       "services": {
         "analytics_service": {
           "status": 1
         },
-        "appinvite_service": {
+        "cloud_messaging_service": {
           "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "853588780905-mttsojnqh8kkkkovhk8cem04vdq53ba3.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
         },
         "ads_service": {
-          "status": 2
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:PROJECT-NUMBER:android:HASH-FOR-FLAVOR2",
+        "client_id": "android:PACKAGE-NAME-2",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "PACKAGE-NAME-2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
         }
       }
     }
   ],
-  "configuration_version": "1"
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
 }
